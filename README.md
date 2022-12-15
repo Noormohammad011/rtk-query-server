@@ -1,55 +1,49 @@
-# lws-json-server-todos
+# json-server-videos
 
-Example in memory todos api with json-server by Learn with Sumit
+Example in memory videos api with json-server
 
 # Installation
 
 ```bash
-git clone git@github.com:learnwithsumit/lws-json-server-todos.git
-cd lws-json-server-todos
-npm install json-server
+git clone https://github.com/Noormohammad011/rtk-query-server.git
+cd directory_name
+npm install
 npm start
 ```
 
 Now opens:
 
-- http://localhost:3000
+- http://localhost:9000
 
 You now have a full REST API. Test with POSTMAN or any other REST Client):
 
 Retrieve all (GET):
 
 ```bash
-GET http://localhost:3000/todos
+GET http://localhost:9000/videos
 ```
 
 Retrieve one (GET):
 
 ```bash
-GET http://localhost:3000/todos/1
+GET http://localhost:9000/videos/1
 ```
 
 Post a todo (POST):
 
 ```bash
-POST http://localhost:3000/todos text="Learn Redux" completed=false color="red"
+POST http://localhost:9000/videos text="Rtk-query" completed=false color="red"
 ```
 
 Update todo (PUT):
 
 ```bash
-PUT http://localhost:3000/todos/3 name="Learn Redux with Learn with Sumit" completed=true color="green"
+PUT http://localhost:9000/3 name="Rtk-query" completed=true color="green"
 ```
 
 Delete todo (DELETE):
 
 ```bash
-DELETE http://localhost:3000/todos/1
+DELETE http://localhost:9000/videos/1
 ```
 
-
-# Links
-
-- https://github.com/typicode/json-server
-- Jswon view Chrome plugin: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
-- Learn with Sumit official website: htts://learnwithsumit.com"# rtk-query-server" 
