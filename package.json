@@ -3,9 +3,6 @@
     "description": "Example in memory videos api with json-server",
     "version": "1.0.0",
     "main": "index.js",
-    "engines": {
-        "node": ">= 14.0.0"
-    },
     "scripts": {
         "start": "node index.js",
         "dev": "json-server --watch db.json --no-cors true --port 9000"
