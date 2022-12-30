@@ -3,13 +3,16 @@
     "description": "Example in memory videos api with json-server",
     "version": "1.0.0",
     "main": "index.js",
+    "engines": {
+        "node": ">= 14.0.0"
+    },
     "scripts": {
         "start": "node index.js",
         "dev": "json-server --watch db.json --no-cors true --port 9000"
     },
     "dependencies": {
         "cors": "^2.8.5",
-        "json-server": "^0.17.0"
+        "json-server": "^0.17.1"
     },
     "keywords": [],
     "author": "Sumit Saha, Learn with Sumit"
